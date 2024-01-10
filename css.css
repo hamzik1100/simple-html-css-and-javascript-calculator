@@ -1,0 +1,60 @@
+html{
+     font-size: 62.5%;
+     margin: 0;
+    
+     background-color: #2F4F4F;
+}
+
+header h1{
+    font-size: 3rem;
+    text-align: center;
+    color:#c3ee06;
+    text-transform: capitalize;
+    top: 0;
+}
+header h3{
+    font-size: 2rem;
+    text-align: center;
+    color:#D2691E	;
+    text-transform: uppercase;
+    
+}
+.l1{
+     font-size: 2rem;
+    color: white;
+}
+.apm{
+    margin-left: 55rem;
+    margin-top: -19rem;
+    color: #ccc;
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    border: 0.2rem solid #eb7209;
+    border-radius: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+ form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -25rem;
+}
+.simp{
+    padding: 20px;
+    border: 0.2rem solid #db6f10;
+    border-radius: 40px;
+}
+footer{
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 4rem;
+    background-color: #db6f10;
+    border-radius: 100%;
+    color: #ccc;
+}
+input{
+    border-radius: 5rem;
+    size: 4rem;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>calculator</title>
+<link rel="stylesheet" href="./css.css">
+<link rel="shortcut icon" type="image/png" href="./man.png">
+<script>
+function add(){
+fst=parseInt(hamze.fst.value);
+snt=parseInt(hamze.snt.value);
+result=fst+snt;
+hamze.result.value=result;
+}
+function substract(){
+fst=parseInt(hamze.fst.value);
+snt=parseInt(hamze.snt.value);
+result=fst-snt;
+hamze.result.value=result;
+}
+function multiply(){
+fst=parseInt(hamze.fst.value);
+snt=parseInt(hamze.snt.value);
+result=fst*snt;
+hamze.result.value=result;
+}
+function divide(){
+fst=parseInt(hamze.fst.value);
+snt=parseInt(hamze.snt.value);
+result=fst/snt;
+hamze.result.value=result;
+}
+</script>
+<head>
+<body>
+<header>
+<h1>university of hargeisa</h1>
+<h3> facult of ict</h3>
+<h3 id="h">basic calculator</h3>
+<br>
+<br>
+<br>
+<br>
+<br>
+<form name="hamze">
+<div class="simp">
+<label class="l1">first_number: -</label>:<br>
+<input type="number"name="fst" placeholder="0"><br>
+<label class="l1">second_number: -</label><br>
+<input type="number"name="snt" placeholder="0"><br><br>
+<label class="l1">result: -</label><br>
+<input type="text" name="result" placeholder="result"><br>
+</div>
+<div class="apm">
+    <input type="radio" name="sub" value="add"  onclick="add()">Add<br><br>
+    <input type="radio" name="sub" value="-" onclick="substract()">Sub<br><br>
+    <input type="radio" name="sub" value="*"onclick="multiply()">Multi<br><br>
+    <input type="radio" name="sub" value="/" onclick="divide()">Divide<br><br>
+    </div>
+</form>
+</header>
+<footer>&copyHamze Esse</footer>
+</body>
+</html>
+
